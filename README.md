@@ -4,11 +4,13 @@ Base64 is a binary to a text encoding scheme that represents binary data in an A
 
 #Installation
 <! --
+
 apt update && apt upgrade -y 
-got clone http://github.com
+git clone http://github.com
 cd GD-Encryption 
 chmod +x GD-Encryption.sh
 bash GD-Encryption.sh 
+
 -->
 
 #Now use this simple encryption tool 
