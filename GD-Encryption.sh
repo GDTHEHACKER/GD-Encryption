@@ -31,7 +31,9 @@ echo -e "\u001b[36m 🤗 I Hope You Enjoy This Script...\n \e[0m"
 echo ""
 echo -e "\033[34m Follow Mee On Socialmedia"
 echo ""
-echo -e '\033[36m Instagram :- @gdthehacker \e[0m'
+echo -e '\033[36m Instagram :- @gdthehacker GitHub :- GDTHEHACKER \e[0m'
+echo -e '\033[36m Telegram Group :- https://t.me/GD_HACKER'
+
 echo $Red '-------------------------------------------------------------------------------'
 #echo -e "\033[40m \033[31m 🤗 I Hope You Enjoy This Script...  \n  🤓 GD-THE-HACKER  \e[0m"
 #echo -e "\033[40m \033[31m 🤗 I Hope You Enjoy This Script...  \n  🤓 GD-THE-HACKER  \e[0m"
