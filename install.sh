@@ -69,9 +69,12 @@ clear
      echo -e $PUL "🔴 figlet Is Installed ..."
      echo -e $RST ""
      echo -e "\033[0;34m Dependencies installed successfully..."
-
-
-
+     sleep 3s
+     clear
+     echo -e $RED "GD-Encryption START..."
+     echo -e $GRY "...................."
+     sleep 2s
+     bash GD-Encryption.sh
 
 
 
