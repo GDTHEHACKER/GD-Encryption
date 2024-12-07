@@ -13,16 +13,16 @@ PUL='\033[0;35m'
 RST='\033[0m'
 
     clear
-    echo -e $RED "DOWNLOADING START..."
-    sleep 2s
-    echo -e $GRY "...................."
+    echo  $RED "DOWNLOADING START..."
+    #sleep 2s
+    echo  $GRY "...................."
     sleep 1s
-    echo -e $GRN ""
+    echo  $GRN ""
     apt update && apt upgrade -y
     apt install figlet 
 
     clear
-    echo -e $RED ""
+    echo  $RED ""
     sleep 1s
     echo "LOADING.....1%"
     sleep 2s
@@ -65,14 +65,14 @@ RST='\033[0m'
 clear 
     
    
-     echo -e $PUL "🔴 Your Terminal Is Fully Update & Upgraded"
-     echo -e $PUL "🔴 figlet Is Installed ..."
-     echo -e $RST ""
-     echo -e "\033[0;34m Dependencies installed successfully..."
+     echo  $PUL "🔴 Your Terminal Is Fully Update & Upgraded"
+     echo  $PUL "🔴 figlet Is Installed ..."
+     echo  $RST ""
+     echo  $BLU "Dependencies installed successfully..."
      sleep 3s
      clear
-     echo -e $RED "GD-Encryption START..."
-     echo -e $GRY "...................."
+     echo  $RED "GD-Encryption START..."
+     echo  $GRY "...................."
      sleep 2s
      bash GD-Encryption.sh
 
