@@ -12,10 +12,11 @@ White=$'\u001b[37m'
 clear
 echo $Red '-------------------------------------------------------------------------------'
 #figlet -f mono12 -F border -F metal GD
-figlet -F border -F gay GDTHEHACKER
+#figlet -F border -F gay GDTHEHACKER
+figlet GD-Encryption
 echo ""
-echo $Y "            This tool is used to decrypt base64 encrypted message "
-echo $Y "                           Created by @gdthehacker"
+echo $Y "          This tool is used to decrypt base64 encrypted message "
+echo $Y "                         Created by @gdthehacker"
 echo $Red '-------------------------------------------------------------------------------'
 echo $Blue ""
 read -p  "Type your msg : " msg
