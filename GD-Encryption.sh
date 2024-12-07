@@ -8,6 +8,9 @@ Green=$'\033[92m'                                                               
 Or=$'\033[0;33m'                                                                                                      Magenta=$'\u001b[35m'
 Cyan=$'\u001b[36m'
 White=$'\u001b[37m'
+GRY='\033[1;30m'
+PUL='\033[0;35m'
+RST='\033[0m'
 
 clear
 echo $Red '-------------------------------------------------------------------------------'
@@ -31,9 +34,10 @@ echo -e "\u001b[36m 🤗 I Hope You Enjoy This Script...\n \e[0m"
 echo ""
 echo -e "\033[34m Follow Mee On Socialmedia"
 echo ""
-echo -e '\033[36m Instagram :- @gdthehacker GitHub :- GDTHEHACKER \e[0m'
-echo -e '\033[36m Telegram Group :- https://t.me/GD_HACKER'
-
+#echo -e '\033[36m Instagram :- @gdthehacker GitHub :- GDTHEHACKER \e[0m'
+#echo -e '\033[36m Telegram Group :- https://t.me/GD_HACKER'
+echo -e '\033[35m Instagram :- \033[30m  @gdthehacker \033[35m GitHub :- \033[30m GDTHEHACKER \e[0m'
+echo -e '\033[35m Telegram Group :-\033[30m https://t.me/GD_HACKER'
 echo $Red '-------------------------------------------------------------------------------'
 #echo -e "\033[40m \033[31m 🤗 I Hope You Enjoy This Script...  \n  🤓 GD-THE-HACKER  \e[0m"
 #echo -e "\033[40m \033[31m 🤗 I Hope You Enjoy This Script...  \n  🤓 GD-THE-HACKER  \e[0m"
