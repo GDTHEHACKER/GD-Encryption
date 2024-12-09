@@ -1,9 +1,7 @@
 #!/bin/sh
 
 
-#if test -f .ascii; then
- #   cat .ascii
-#fi
+#text color codes
 
 GRY='\033[1;30m'
 RED='\033[0;31m'
@@ -78,24 +76,3 @@ clear
 
 
 
-
-
-
-
-
-
-#env pip install -r requirements.txt
-#    status=$?
- #   if [ "${status}" -ne 0 ]; then
-  #      printf "${RED}An error occurred! seems pip doesn't work.\n${RST}"
-   #     exit 1
-    #fi
-#elif [ "$KERNEL" != "darwin" ]; then
- #   pythonV="$(python3 --version | grep -oP '(?<=\.)\d+(?=\.)')"
-  #  status=1
-   # if [ "${pythonV}" -ge 11 ]; then
-    #    env python3 -m pip install -r --break-system-packages ./requirements.txt
-     #   status=$?
-  
-#echo "${GRN}\nDependencies installed successfully.\n${RST}"
-#-->
