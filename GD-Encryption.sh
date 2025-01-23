@@ -12,7 +12,7 @@ GRY='\033[1;30m'
 PUL='\033[0;35m'
 RST='\033[0m'
 
-clear
+clear 
 echo $Red '-------------------------------------------------------------------------------'
 #figlet -f mono12 -F border -F metal GD
 #figlet -F border -F gay GDTHEHACKER
