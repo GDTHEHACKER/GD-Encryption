@@ -18,7 +18,8 @@ RST='\033[0m'
     echo  $GRN ""
     apt update && apt upgrade -y
     apt install figlet 
-
+    chmod +x GD-Encryption.sh
+    chmod +x GD-Decrypter.sh
     clear
     echo  $RED ""
     sleep 1s
