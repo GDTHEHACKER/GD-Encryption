@@ -29,14 +29,15 @@ echo " $msg "  | base64
 sleep 2s
 echo ""
 echo $Red '-------------------------------------------------------------------------------'
+
 echo $Cyan ""
 #echo 'I hope you enjoy this script ...'
-echo -e "\u001b[36m 🤗 I Hope You Enjoy This Script...\n \e[0m"
+echo -e "\u001b[36m                        🤗 I Hope You Enjoy This Script...\n \e[0m"
 echo ""
-echo -e "\033[34m Follow Mee On Socialmedia"
+echo -e "\e[1;31m                            FOLLOW ME ON SOCIALMEADIA"
 echo ""
 #echo -e '\033[36m Instagram :- @gdthehacker GitHub :- GDTHEHACKER \e[0m'
 #echo -e '\033[36m Telegram Group :- https://t.me/GD_HACKER'
-echo -e '\033[35m Instagram :-\033[30m @gdthehacker \033[35m GitHub :-\033[30m GDTHEHACKER \033[35m Telegram Group :-\033[30m GD_HACKER \e[0m'
+echo -e '\033[35m Instagram :-\u001b[33m @gdthehacker \033[35m GitHub :-\u001b[33m GDTHEHACKER \033[35m Telegram Group :-\u001b[33m GD_HACKER \e[0m'
 #echo -e '\033[35m Telegram Group :-\033[30m https://t.me/GD_HACKER'
 echo $Red '-------------------------------------------------------------------------------'
